@@ -6,12 +6,16 @@ const PORT = process.env.PORT || 8080;
 
 main().catch((err) => console.log(err));
 
+
 async function main() {
   await mongoose.connect(
     "mongodb+srv://lokeshlaxkar9:NC4yVhUgsBgdMX8A@cluster0.el3mzea.mongodb.net/Laundary-App?retryWrites=true&w=majority"
   );
   console.log("Mongoose Connected");
 }
+//middlewares
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(appRoutes);
 
