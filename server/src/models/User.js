@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
     type: Number,
     required: true,
     unique: true,
-    validate: [isMobilePhone, "please enter valid mobile number"],
+    // validate: [isMobilePhone, "please enter valid mobile number"],
   },
   password: {
     type: String,
@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+},{timestamps:true});
 
 const User = mongoose.model("User", userSchema);
 
