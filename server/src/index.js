@@ -13,6 +13,10 @@ async function main() {
   console.log("Mongoose Connected");
 }
 
+//middlewares
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use(appRoutes);
 
 app.all("*", (req, res) => {

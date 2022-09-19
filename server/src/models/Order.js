@@ -1,124 +1,124 @@
 const mongoose = require("mongoose");
+const User = require("./User");
 
-const orderSchema = new mongoose.Schema({
-  shirt: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+const orderSchema = new mongoose.Schema(
+  {
+    shirt: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          chemical: false,
+        },
       },
     },
-  },
-  tshirt: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+    tshirt: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          chemical: false,
+        },
       },
     },
-  },
-  trouser: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+    trouser: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          chemical: false,
+        },
       },
     },
-  },
-  jeans: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+    jeans: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          chemical: false,
+        },
       },
     },
-  },
-  boxer: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+    boxer: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          chemical: false,
+        },
       },
     },
-  },
 
-  jogger: {
-    qty: Number,
-    washtype: {
-      iron: Boolean,
-      wash: Boolean,
-      dryclean: Boolean,
-      chemical: Boolean,
-    },
-    default: {
-      qty: 0,
+    jogger: {
+      qty: Number,
       washtype: {
-        iron: false,
-        wash: false,
-        dryclean: false,
-        dryclean: false,
+        iron: Boolean,
+        wash: Boolean,
+        dryclean: Boolean,
+        chemical: Boolean,
+      },
+      default: {
+        qty: 0,
+        washtype: {
+          iron: false,
+          wash: false,
+          dryclean: false,
+          dryclean: false,
+        },
       },
     },
+    orderid: String,
+    user: {
+      type: String,
+    }, //userID
   },
-  orderdate: {
-    type: String,
-  },
-  orderid: String,
-  user: {
-    type: Schema.Types.ObjectId,
-    ref: "User",
-  }, //userID
-});
+  { timestamps: true }
+);
 
 const Order = mongoose.model("Order", orderSchema);
 
