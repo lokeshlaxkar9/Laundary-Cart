@@ -108,7 +108,7 @@ const orderSchema = new mongoose.Schema(
           iron: false,
           wash: false,
           dryclean: false,
-          dryclean: false,
+          chemical: false,
         },
       },
     },
