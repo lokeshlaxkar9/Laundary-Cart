@@ -1,0 +1,139 @@
+.login {
+    display: flex;
+}
+
+.box1 {
+    width: 50%;
+    height: 769px;
+}
+
+.box11 {
+    margin-top: 149.5px;
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-bottom: 14px;
+    text-align: left;
+    font: normal normal 900 100px/120px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.box12 {
+    margin-left: 151px;
+    margin-right: 151px;
+    margin-bottom: 74px;
+    text-align: left;
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.box13 {
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-bottom: 16.5px;
+    text-align: left;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.box14 {
+    margin-left: 152px;
+    margin-right: 152px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 14px 43px 16px 43px;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+    opacity: 1;
+}
+
+.box2 {
+    width: 50%;
+    height: 769px;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box21 {
+    margin: 182px 452px 65px 130px;
+    text-align: left;
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.box22 {
+    margin-left: 135px;
+    margin-bottom: 15px;
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+}
+
+.box23 {
+    margin-left: 129.5px;
+    margin-bottom: 50px;
+    width: 398px;
+    border: 1px solid #989898;
+    opacity: 1;
+}
+
+.box24 {
+    margin-left: 135px;
+    width: 322px;
+    margin-bottom: 17px;
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+}
+
+/*.box242 {
+    margin-left: 49.27px;
+    background: transparent url('img/padlock.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}*/
+.box25 {
+    margin-left: 129.5px;
+    margin-bottom: 17px;
+    width: 398px;
+    border: 1px solid #989898;
+    opacity: 1;
+}
+
+.box26 {
+    margin-left: 386px;
+    text-align: left;
+    margin-bottom: 68.5px;
+    font: normal normal medium 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #4552C1;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.box27 {
+    margin-left: 242.54px;
+    margin-right: 312px;
+    padding: 14px 49px 16px 49px;
+    background: #4552C1 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
