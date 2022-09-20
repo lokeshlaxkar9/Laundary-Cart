@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const authRoutes = require("./routes/authRoutes");
 const appRoutes = require("./routes/appRoutes");
 const PORT = process.env.PORT || 8080;
 
@@ -16,6 +17,7 @@ async function main() {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(authRoutes);
 app.use(appRoutes);
 
 app.all("*", (req, res) => {
