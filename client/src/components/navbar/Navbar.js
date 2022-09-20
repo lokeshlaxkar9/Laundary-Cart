@@ -11,8 +11,7 @@ function Navbar() {
              <div className="name1">pricing</div>
              <div className="name1">Career</div>
              <div className="name2">Sign in</div>
-           </div>
-                 
+           </div> 
         </div>
 
     );
