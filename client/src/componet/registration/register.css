@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    width: 25%;
+    height: 600px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.rform {
+    width: 75%;
+    height: 600px;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.line1 {
+    margin-top: 50%;
+    margin-left: 30px;
+    width: 20%;
+    height: 120px;
+}
+
+.line1 p {
+    font: normal normal 900 50px/75px Avenir;
+    letter-spacing: 2.48px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.line2 {
+    margin-top: 15%;
+    margin-left: 30px;
+    width: 50%;
+    height: 65px;
+}
+
+.line2 p {
+    font: normal normal normal 16px/30px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.line3 {
+    margin-top: 30%;
+    margin-left: 30px;
+    width: 80%;
+    height: 30px;
+}
+
+.line3 p {
+    font: normal normal normal 14px/24px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.header button {
+    margin-left: 30px;
+    width: 50%;
+    height: 40px;
+    border: 2px solid #5861AE;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+/* registration css */
+.box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+label {
+
+    font: normal normal normal 12px/15px Open Sans;
+    letter-spacing: 0.42px;
+    color: #5861AE;
+    opacity: 1;
+}
+
+.lv1 {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+input[type=text],
+input[type=email] {
+    margin-top: 15px;
+    font-size: 20px;
+    background: #F8F9FF;
+}
+
+select {
+    margin-top: 30px;
+    background: #F8F9FF;
+}
+
+.npara input[type=checkbox] {
+    margin-top: 10%;
+    margin-left: 30%;
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861AE;
+    opacity: 1;
+}
+
+.forminput button {
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 20%;
+    height: 40px;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 4px;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    opacity: 1;
+
+}
+
+.rform .p1 {
+    margin-top: 40px;
+    margin-left: 7%;
+    /* font: normal normal normal 26px/15px Avenir; */
+    font-size: 26px;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+}

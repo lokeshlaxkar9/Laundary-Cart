@@ -1,11 +1,11 @@
 import "./App.css";
-import SideNav from "./components/SideNav/SideNav";
+import Register from "./componet/registration/Register";
 
 function App() {
   return (
-    <div className="App">
-      <SideNav />
-    </div>
+    <>
+      <Register />
+    </>
   );
 }
 
