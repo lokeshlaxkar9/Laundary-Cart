@@ -1,10 +1,16 @@
 import "./App.css";
-import Register from "./componet/registration/Register";
-
+import Footer from "./components/footer/Footer";
+import Register from "./components/registration/Register";
+import SideNav from "./components/SideNav/SideNav";
 function App() {
   return (
     <>
-      <Register />
+      <div className="body">
+        <SideNav />
+        <Register />
+      </div>
+
+      <Footer />
     </>
   );
 }
