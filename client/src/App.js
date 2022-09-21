@@ -1,17 +1,14 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
 import Register from "./components/registration/Register";
-import SideNav from "./components/SideNav/SideNav";
+import Login from "./components/login/Login";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <>
-      <div className="body">
-        <SideNav />
-        <Register />
-      </div>
-
-      <Footer />
-    </>
+    <Routes>
+      <Route path="register" element={<Register />} />
+      <Route path="login" element={<Login />} />
+      <Route path="new" element={<h1>New Route</h1>} />
+    </Routes>
   );
 }
 
