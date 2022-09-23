@@ -1,0 +1,125 @@
+.summary {
+    height: 100vh;
+    background-color: #ffff;
+    width: 50vw;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.summary-header {
+    height: 4em;
+    color: #ffff;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    background-color: #5861AE;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.header-store {
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    font-weight: 600;
+    background-color: #F4F9FF;
+    font-family: 'Open Sans';
+    padding: 0;
+}
+
+.store-address {
+    font-weight: 400;
+    font-size: small;
+}
+
+.summary-order-table {
+    padding-left: 2em;
+    color: #3B3737;
+    letter-spacing: 0.42px;
+    font-weight: 600;
+}
+
+.address-flex {
+    display: flex;
+    gap: 2em;
+}
+
+.home-address {
+    box-sizing: border-box;
+    width: 15em;
+    height: fit-content;
+    padding: 0 1em;
+    font-size: smaller;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.home-name {
+    margin: 0;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.faltu {
+    font-size: smaller;
+    font-weight: 300;
+}
+
+#add-new {
+    color: #5861AE;
+    height: 3em;
+    font-size: larger;
+    margin: auto 0;
+}
+
+.summary-footer {
+    /* Layout Properties */
+    bottom: 0;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    /* UI Properties */
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000015;
+    opacity: 1;
+}
+
+#summary-confirm {
+    margin-left: 80%;
+    margin-top: 1.5em;
+    width: 107px;
+    height: 32px;
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    font: normal normal Open Sans;
+    color: #FFFFFF;
+}
+
+#summary-confirm:hover {
+    color: #5861AE;
+    background: #FFFFFF
+}
+
+#price-container {
+    margin-left: 84%;
+    color: #ffff;
+}
+
+#finalPrice {
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+#price-block {
+    background-color: #5861AE;
+    margin-top: 10px;
+    padding: 1px;
+}

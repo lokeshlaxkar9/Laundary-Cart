@@ -1,0 +1,42 @@
+.order-row {
+    height: 3em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    border: 1px solid #E0E0E0;
+
+}
+
+.order-row-items {
+    width: 20em;
+
+    margin: auto;
+    display: flex;
+}
+
+.img-washtype {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#product-name {
+    font-weight: 600;
+    font-size: large;
+    padding-left: 2em;
+    color: #5861AE;
+}
+
+#price {
+    color: #5861AE;
+    font-weight: 900;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+}
+
+#price-expression {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}

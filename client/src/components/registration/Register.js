@@ -28,6 +28,7 @@ const Register = () => {
       navigate("/login");
     } catch (e) {
       console.log(e.message);
+      alert("Invalid Details");
     }
   };
   return (

@@ -1,0 +1,36 @@
+.order-table {
+    width: 1295px;
+    align-self: center;
+    margin: auto;
+}
+
+.order-button {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.order-table-header {
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: larger;
+    padding-bottom: 1em;
+}
+
+#proceed,
+#cancel {
+    width: 107px;
+    height: 32px;
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    font: normal normal Open Sans;
+    color: #FFFFFF;
+}
+
+#proceed:hover,
+#cancel:hover {
+    color: #5861AE;
+    background: #FFFFFF
+}

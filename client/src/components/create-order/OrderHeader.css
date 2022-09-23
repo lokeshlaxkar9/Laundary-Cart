@@ -1,0 +1,17 @@
+.order-header {
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    padding-left: 2em;
+    height: 50px;
+}
+
+.order-head {
+    width: 20em;
+    text-align: left;
+    font: normal normal 600 16px/48px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

@@ -1,0 +1,25 @@
+.summary-individual-row {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    height: 2em;
+    border-bottom: 1px solid lavender;
+}
+
+.summary-individuals {
+    padding-right: 1em;
+    padding-top: 0.3em;
+    font-weight: 400;
+    font-size: medium;
+}
+
+#summary-pain {
+    font-weight: 600;
+}
+
+#summary-pain-2 {
+    font-weight: 600;
+    color: #5861AE;
+    font-size: larger;
+}

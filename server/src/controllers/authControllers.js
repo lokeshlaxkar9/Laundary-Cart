@@ -30,5 +30,10 @@ module.exports.login = async (req, res, next) => {
   const { email, password } = req.body;
   const user = await User.login(email, password);
   const token = createToken(user._id);
-  res.json({ status: "Logged In", token: token });
+  res.json({
+    status: "Logged In",
+    token: token,
+    id: user._id,
+    name: user.name,
+  });
 };

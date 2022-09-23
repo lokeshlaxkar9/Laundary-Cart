@@ -10,14 +10,17 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
+
       default: {
-        qty: 0,
+        qty: Number,
         washtype: {
           iron: false,
           wash: false,
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
     tshirt: {
@@ -28,6 +31,7 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
       default: {
         qty: 0,
         washtype: {
@@ -36,6 +40,7 @@ const orderSchema = new mongoose.Schema(
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
     trouser: {
@@ -46,6 +51,7 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
       default: {
         qty: 0,
         washtype: {
@@ -54,6 +60,7 @@ const orderSchema = new mongoose.Schema(
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
     jeans: {
@@ -64,6 +71,7 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
       default: {
         qty: 0,
         washtype: {
@@ -72,6 +80,7 @@ const orderSchema = new mongoose.Schema(
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
     boxer: {
@@ -82,6 +91,7 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
       default: {
         qty: 0,
         washtype: {
@@ -90,6 +100,7 @@ const orderSchema = new mongoose.Schema(
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
 
@@ -101,6 +112,7 @@ const orderSchema = new mongoose.Schema(
         dryclean: Boolean,
         chemical: Boolean,
       },
+      price: Number,
       default: {
         qty: 0,
         washtype: {
@@ -109,12 +121,15 @@ const orderSchema = new mongoose.Schema(
           dryclean: false,
           chemical: false,
         },
+        price: 0,
       },
     },
     orderid: String,
     user: {
       type: String,
     }, //userID
+    totalPrice: Number,
+    totalQty: Number,
   },
   { timestamps: true }
 );

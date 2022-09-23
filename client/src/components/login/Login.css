@@ -104,20 +104,6 @@
     opacity: 1;
 }
 
-/*.box242 {
-    margin-left: 49.27px;
-    background: transparent url('img/padlock.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-
-}*/
-.box25 {
-    margin-left: 129.5px;
-    margin-bottom: 17px;
-    width: 398px;
-    border: 1px solid #989898;
-    opacity: 1;
-}
-
 .box26 {
     margin-left: 386px;
     text-align: left;
@@ -136,4 +122,7 @@
     background: #4552C1 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 1;
+}
+.box27 button{
+    padding-left: 25px;
 }
