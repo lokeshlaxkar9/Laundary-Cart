@@ -8,6 +8,7 @@ import Nsummary from "../newsummary/Nsummary";
 import Alertbox from "./Alertbox";
 import Footer2 from "../footer/Footer2";
 import NavLogin from "../NavLogin/NavLogin";
+import { useNavigate } from "react-router-dom";
 
 const Forder = () => {
   const [alert, setalert] = useState(false);
@@ -16,6 +17,7 @@ const Forder = () => {
   const [orders, setorders] = useState([]);
   const userId = localStorage.getItem("userId");
   const [orderData, setOrderData] = useState({});
+  const navigate = useNavigate();
   const fetchData = () => {
     fetch(`http://localhost:8080/history/${userId}`)
       .then((response) => {
@@ -24,10 +26,17 @@ const Forder = () => {
       .then((data) => {
         setorders(data.reverse());
         setsize(data.length);
+        // if (size == 0) navigate("/blank");
       });
   };
 
   useEffect(() => {
+    const userInfo = localStorage.getItem("userInfo");
+    if (!userInfo) {
+      console.log(userInfo);
+      navigate("/login");
+    }
+
     fetchData();
   }, []);
 

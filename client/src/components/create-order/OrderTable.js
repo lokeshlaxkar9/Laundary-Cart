@@ -3,7 +3,10 @@ import "./OrderTable.css";
 import Order from "./Order";
 import OrderHeader from "./OrderHeader";
 import Summary from "./Summary";
+import ConfirmOrder from "./ConfirmOrder";
+import { useNavigate } from "react-router-dom";
 function OrderTable() {
+  const navigate = useNavigate();
   const [shirt, setShirt] = useState({
     name: "Shirts",
     type: "shirt",
@@ -83,6 +86,7 @@ function OrderTable() {
     orderid: "OR0001",
   };
   const [summary, setSummary] = useState(false);
+  const [confirm, setConfirm] = useState(false);
   return (
     <>
       <div className="order-table">
@@ -95,11 +99,23 @@ function OrderTable() {
           <button id="proceed" onClick={() => setSummary(!summary)}>
             Proceed
           </button>
-          <button id="cancel">Cancel</button>
+          <button id="cancel" onClick={() => navigate("/order1")}>
+            Cancel
+          </button>
         </div>
       </div>
+      {confirm && <ConfirmOrder />}
       {summary && (
-        <Summary handleToggle={{ summary, setSummary, products, finalData }} />
+        <Summary
+          handleToggle={{
+            summary,
+            setSummary,
+            products,
+            finalData,
+            confirm,
+            setConfirm,
+          }}
+        />
       )}
     </>
   );

@@ -7,6 +7,8 @@ import CreateOrder from "./components/create-order/CreateOrder";
 import NavLogin from "./components/NavLogin/NavLogin";
 import NewLogin from "./components/login/NewLogin";
 import Create from "./components/create/Create";
+import ConfirmOrder from "./components/create-order/ConfirmOrder";
+import Blanck from "./components/blanck/Blanck";
 function App() {
   return (
     <Routes>
@@ -14,7 +16,8 @@ function App() {
       <Route path="create" element={<CreateOrder />} />
       <Route path="register" element={<Register />} />
       <Route path="login" element={<NewLogin />} />
-      {/* <Route path="blank" element={<Create />} /> */}
+      <Route path="blank" element={<Blanck />} />
+      <Route path="*" element={<NewLogin />} />
     </Routes>
   );
 }

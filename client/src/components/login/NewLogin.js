@@ -80,7 +80,7 @@ function NewLogin() {
           </div>
         </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -83,7 +83,9 @@ function Summary({ handleToggle }) {
                 user: userId,
               });
               if (data.status == 200) {
-                alert("Order Confirmed");
+                // alert("Order Confirmed");
+                handleToggle.setConfirm(!handleToggle.confirm);
+                handleToggle.setSummary(!handleToggle.summary);
               }
             } catch (e) {
               console.log(e.message);

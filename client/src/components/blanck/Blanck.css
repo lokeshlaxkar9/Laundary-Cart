@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+.nscoll{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.socbar{
+    
+    margin-left: 50px;
+    width: 90%;
+    height: 60px;
+    background:  #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 3px 3px 0px 0px;
+opacity: 1;
+display: flex;
+}
+.socbar .socline{
+    font: normal normal 600 14px/40px Open Sans;
+letter-spacing: 0px;
+color: #1E2022;
+text-transform: capitalize;
+opacity: 1;
+}
+.socbar .sline2{
+    margin-left: 68%;
+}
+.socbar .socbox{
+    margin-left: 75%;
+    width: 15%;
+    height: 43px;
+    border-bottom: 1px solid green;
+}
+/* .sline2 .cbotton{
+    width: 110px;
+    height: 30px;
+    color:#FFFFFF ;
+    background-color: #5861AE;
+opacity: 1;
+    border: 1px solid #5861AE;
+border-radius: 4px;
+
+}
+.cbotton:hover{
+    color:#5861AE ;
+    background-color:#FFFFFF ;
+    border: 1px solid #5861AE;
+border-radius: 4px;
+} */
+.blanck{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.soimglogo{
+    padding-top: 8px;
+}
+.socbar  .socbox,.soimglogo:hover{
+    height: 30px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.socbar  .socbox:hover{
+    height: 35px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.newcreatebotton{
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.newpara1{
+    letter-spacing: 0px;
+color: #222B45;
+opacity: 0.5;
+}
+.scnbotton{
+    margin-left: 15px;
+    width: 110px;
+    height: 30px;
+    color:#FFFFFF ;
+    background-color: #5861AE;
+opacity: 1;
+    border: 1px solid #5861AE;
+border-radius: 4px;
+cursor: pointer;
+}
+.scnbotton:hover{
+    color:#5861AE ;
+    background-color:#FFFFFF ;
+    border: 1px solid #5861AE;
+border-radius: 4px;
+}

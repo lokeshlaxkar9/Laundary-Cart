@@ -1,0 +1,74 @@
+.confirm-order-container {
+    width: 466px;
+    height: 504px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E0E0;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 500px;
+}
+
+
+.confirm-order-items {
+    top: 220px;
+    left: 605px;
+    width: 315px;
+    height: 475px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    /* background-color: #5861AE; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#check-icon {
+    width: 120px;
+    height: 120px;
+    color: #5861AE;
+}
+
+.confirm-heading {
+    width: 297px;
+    height: 66px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#track-msg {
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 17px/22px Open Sans;
+    letter-spacing: -0.41px;
+    color: #0A1F44;
+    opacity: 1;
+    margin-top: 1em;
+}
+
+#final-container-btn {
+    text-align: center;
+    font: normal normal bold 17px/23px Open Sans;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+    padding: 0.5em 2.5em;
+    border: none;
+}
+
+#final-container-btn:hover {
+    color: #5861AE;
+    background-color: #FFFFFF;
+    border: 1px solid #5861AE;
+}

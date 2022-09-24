@@ -1,11 +1,12 @@
 .summary {
-    height: 100vh;
+    height: 110vh;
     background-color: #ffff;
     width: 50vw;
     z-index: 1;
     position: absolute;
     right: 0;
     bottom: 0;
+    top: 1px;
 }
 
 .summary-header {

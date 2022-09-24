@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./register.css";
 import Navbar from "../navbar/Navbar";
@@ -7,6 +7,13 @@ import Footer from "../footer/Footer";
 
 const Register = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    const userInfo = localStorage.getItem("userInfo");
+    if (userInfo) {
+      navigate("/order1");
+    }
+  }, []);
+
   const [input, setinput] = useState({
     name: "",
     email: "",
@@ -48,7 +55,9 @@ const Register = () => {
           <div className="line3">
             <p>Already Have Account</p>
           </div>
-          <button onClick={() => navigate("/login")}>Sign In</button>
+          <button id="registration-signin" onClick={() => navigate("/login")}>
+            Sign In
+          </button>
         </div>
 
         {/* Registration form part */}
@@ -172,12 +181,14 @@ const Register = () => {
                 </label>
               </div>
 
-              <button type="submit">Register</button>
+              <button type="submit" className="registersubmit">
+                Register
+              </button>
             </form>
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

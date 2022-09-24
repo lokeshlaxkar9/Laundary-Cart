@@ -8,7 +8,7 @@ import instalogo from "../images/instagram.svg";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <div className="footer1">
         <div className="level1">
           <p className="para1">Now Refer & Earn ₹500 for every referral*</p>
           <p className="para2">* Terms and conditions will be applied</p>
