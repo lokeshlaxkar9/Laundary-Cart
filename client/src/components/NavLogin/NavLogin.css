@@ -1,0 +1,59 @@
+.nav-login {
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+#brand-name {
+    height: 100%;
+    color: #5861AE;
+    letter-spacing: 1.8px;
+    font: normal normal 900 20px/27px Avenir;
+    box-sizing: border-box;
+    padding: 1.3em 2em;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    /* background-color: #5861AE; */
+    color: #5861AE;
+}
+
+.nav-link {
+    width: 50%;
+    height: 100%;
+    color: red;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #2f2e2e0f;
+    text-align: center;
+    text-align: center;
+    font: normal normal medium 16px/22px Avenir;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+#userName {
+    background-color: #5861AE;
+    color: #FFFFFF;
+    padding: 1.5em;
+    font-weight: 600;
+    font-size: large;
+}
+
+#logOut {
+    color: rgb(214, 118, 101);
+    padding: 1.5em;
+    font-weight: 600;
+    font-size: large;
+}
+
+#logOut:hover {
+    background-color: wheat;
+}

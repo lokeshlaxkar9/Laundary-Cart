@@ -2,7 +2,7 @@
     top: -1.5px;
     left: 0px;
     width: 57px;
-    height: 87vh;
+    height: 89vh;
     background: #5861AE 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
@@ -23,6 +23,6 @@
     text-align: center;
 }
 
-img {
+.side-nav-img {
     padding-top: 15px;
 }

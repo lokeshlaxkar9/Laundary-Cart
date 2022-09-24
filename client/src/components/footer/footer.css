@@ -1,7 +1,7 @@
-#box2 {
+/* #box2 {
     height: auto;
     background: none;
-}
+} */
 
 .level1 {
     width: 100%;
@@ -20,7 +20,8 @@
 
     display: flex;
     justify-content: space-around;
-    /* background-image: url("{footerimg }"); */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .level3 {
@@ -33,7 +34,7 @@
 }
 
 .level1 .para1 {
-    font: normal normal 600 24px/28px Open Sans;
+    font: normal normal 600 23px/10px Open Sans;
     letter-spacing: 0.96px;
     color: #5861AE;
     opacity: 1;
@@ -41,6 +42,7 @@
 }
 
 .level1 .para2 {
+    margin-top: 25px;
     font: italic normal normal 9px/0px Open Sans;
     letter-spacing: 0.4px;
     color: #3D3D43;
@@ -48,12 +50,12 @@
     text-align: center;
 }
 
-.level2 .box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6 {
+.level2 .boxn1,
+.boxn2,
+.boxn3,
+.boxn4,
+.boxn5,
+.boxn6 {
     margin-top: 30px;
 }
 

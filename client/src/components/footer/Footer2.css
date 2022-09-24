@@ -1,0 +1,14 @@
+.footer2 {
+    height: 50px;
+    background: #182838 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#footer2 {
+    text-align: center;
+    font: normal normal normal 12px/24px Avenir;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    opacity: 1;
+}

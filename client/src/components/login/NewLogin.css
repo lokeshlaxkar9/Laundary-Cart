@@ -1,0 +1,145 @@
+.login-main {
+    height: 769px;
+    width: 100%;
+    display: flex;
+}
+
+.login-right-section {
+    width: 50%;
+    height: 100%;
+    background-color: #B9C0FD1A;
+    display: flex;
+    /* background-color: aliceblue; */
+}
+
+.login-left-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.login-heading-container {
+    width: 411px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-heading h1 {
+    margin: 0;
+    text-align: left;
+    font: normal normal 900 100px/120px Avenir;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.login-heading p {
+    text-align: left;
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.register-button-container p {
+    text-align: left;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.register-button-container button:hover {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    color: #4552C1;
+    background: none;
+    font-weight: 700;
+}
+
+.register-button-container button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    background-color: #5861AE;
+    font-weight: 700;
+}
+
+.form-container {
+    width: 411px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.form-container h1 {
+    margin-bottom: 2em;
+    padding: 1em 0;
+    text-align: left;
+    font: normal normal large 42px/70px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 128px;
+    height: 44px;
+    box-sizing: border-box;
+}
+
+.signin-inputs {
+    margin-bottom: 5em;
+    width: 80%;
+    border: none;
+    border-bottom: 1.5px solid #acb3ba76;
+    opacity: 1;
+    margin: 1em 0;
+    padding: 2px;
+}
+
+.login-form p {
+    text-align: right;
+    width: 80%;
+    color: #5861AE
+}
+
+#signin-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 3em;
+}
+
+#signin-btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    background-color: #5861AE;
+    font-weight: 700;
+}
+
+#signin-btn:hover {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    color: #4552C1;
+    background: none;
+    font-weight: 700;
+}

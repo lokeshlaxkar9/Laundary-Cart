@@ -1,15 +1,18 @@
-import React from 'react'
+import React  from 'react'
 import "./orderh.css"
-
+import { useNavigate } from "react-router-dom";
 import searchlogo from "../images/search.svg";
-const Hdorder = () => {
+const Hdorder = ({sizes}) => {
+  
+  const navigate = useNavigate();
+  console.log(sizes)
   return (
     <>
 
-
+  
 <div className="sbar">
-          <div className='sline'>Order | 0</div>
-          <span className='sline sline2'><button className='cbotton'>Create</button></span>
+          <div className='sline'>  Order | {sizes} </div>
+          <span className='sline sline2'><button className='cbotton' onClick={()=>navigate("/create")}>Create</button></span>
           <div className='sbox'><img src={searchlogo} alt="fblogo" className="imglogo"  style={{color: "#1D377E"}}/></div>
       </div>
 

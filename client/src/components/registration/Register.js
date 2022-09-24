@@ -4,6 +4,7 @@ import "./register.css";
 import Navbar from "../navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 import Footer from "../footer/Footer";
+
 const Register = () => {
   const navigate = useNavigate();
   const [input, setinput] = useState({
@@ -16,19 +17,21 @@ const Register = () => {
     pincode: "",
     password: "",
   });
+  const [check, setCheck] = useState(false);
   const handlesubmit = async (e) => {
     e.preventDefault();
-    console.log(input);
+    if (!check) return alert("all fields are required");
+
     try {
       const response = await axios.post(
         "http://localhost:8080/register",
         input
       );
-      console.log(response.data);
       navigate("/login");
     } catch (e) {
+      if (e.code === "ERR_BAD_REQUEST") alert("Email and Phone must be unique");
+      else alert("Invalid Details all feilds are required");
       console.log(e.message);
-      alert("Invalid Details");
     }
   };
   return (
@@ -45,7 +48,7 @@ const Register = () => {
           <div className="line3">
             <p>Already Have Account</p>
           </div>
-          <button>Sign In</button>
+          <button onClick={() => navigate("/login")}>Sign In</button>
         </div>
 
         {/* Registration form part */}
@@ -157,7 +160,11 @@ const Register = () => {
                 </div>
               </div>
               <div className="npara">
-                <input type="checkbox" name="check" />
+                <input
+                  type="checkbox"
+                  name="check"
+                  onChange={() => setCheck(!check)}
+                />
                 <label>
                   {" "}
                   I agree to Terms & Condition receiving marketing and
@@ -170,7 +177,7 @@ const Register = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

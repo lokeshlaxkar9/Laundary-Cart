@@ -1,0 +1,164 @@
+.nsummary_content {
+    width: 60%;
+    height: 670px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.hnsummary {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font: normal normal 600 22px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.storelocdetails {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    background: #F4F9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid lightgray;
+}
+
+.osummarystatus {
+    width: 100%;
+    /* height: 65px; */
+    /* display: flex; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid lightgray;
+    opacity: 1;
+}
+
+.ordersummarystatus {
+    width: 100%;
+    /* height: 265px; */
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.totalsummary {
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 93%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    color: #FFFFFF;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.specialhe {
+    font: normal normal 600 12px/10px Open Sans;
+    letter-spacing: 0.38px;
+    color: #1B2734;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.specialhe2 {
+    font: normal normal normal 10px/8px Open Sans;
+    letter-spacing: 0.38px;
+    color: #1B2734;
+    font-weight: lighter;
+    opacity: 1;
+}
+
+.ohd {
+    margin-left: 35px;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0.42px;
+    color: #3B3737;
+    opacity: 1;
+}
+
+.os {
+    margin-left: 35px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.osline1 {
+    font: normal normal normal 14px/10px Open Sans;
+    letter-spacing: 0.43px;
+    color: #1B2734;
+    opacity: 1;
+}
+
+.osline2 {
+    font: italic normal normal 14px/10px Open Sans;
+    letter-spacing: 0.38px;
+    color: #1B2734;
+    opacity: 1;
+}
+
+.osline3 {
+    margin-left: 30px;
+    font: normal normal 600 14px/10px Open Sans;
+    letter-spacing: 0.48px;
+    color: #5861AE;
+    opacity: 1;
+}
+
+.tapara1 {
+    margin-top: 22px;
+    margin-right: 30px;
+}
+
+.tapara2 {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.iline {
+    margin-left: 35px;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0.42px;
+    color: #3B3737;
+    opacity: 1;
+}
+
+.nsummaryaddress {
+    margin-left: 30px;
+    width: 25%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.scbutton {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #F4F4F4;
+}
+
+.csumary {
+
+    width: 130px;
+    height: 36px;
+    margin-left: 80%;
+    background: #F41313 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    opacity: 1;
+}

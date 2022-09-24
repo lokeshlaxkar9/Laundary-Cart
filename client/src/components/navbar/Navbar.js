@@ -2,17 +2,17 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="nav">
-      <div className="logo">
-        <p>LAUNDRY</p>
+    <nav className="nav-login">
+      <div id="brand-name">LAUNDRY</div>
+      <div id="nav-links-login">
+        <div className="nav-link-login">Home</div>
+        <div className="nav-link-login">Pricing</div>
+        <div className="nav-link-login">Career</div>
+        <div className="nav-link-login" id="userName">
+          {"Sign In"}
+        </div>
       </div>
-      <div className="names">
-        <div className="name1">Home</div>
-        <div className="name1">pricing</div>
-        <div className="name1">Career</div>
-        <div className="name2">Sign in</div>
-      </div>
-    </div>
+    </nav>
   );
 }
 

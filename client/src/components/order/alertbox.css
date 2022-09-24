@@ -1,9 +1,13 @@
 .dialogbox {
-    width: 30%;
-    height: 290px;
+    width: 25%;
+    height: 220px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 2px;
     opacity: 1;
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    z-index: 1;
     border: 1px solid lightgray;
 
 }
@@ -11,7 +15,7 @@
 .alertheader1 {
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 35px;
     justify-content: space-between;
     background: #5861AE 0% 0% no-repeat padding-box;
     border-radius: 2px 2px 1px 1px;
@@ -23,7 +27,7 @@
 }
 
 .messagebox {
-    width: 55%;
+    width: 65%;
     height: auto;
     margin-top: 20px;
     margin-left: 15px;

@@ -23,7 +23,7 @@ module.exports.registerUser = async (req, res, next) => {
     district,
     address,
   });
-  res.json({ status: "registered", response: user });
+  res.json({ status: "registered" });
 };
 
 module.exports.login = async (req, res, next) => {

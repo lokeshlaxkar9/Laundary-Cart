@@ -7,13 +7,13 @@ function SideNav() {
   return (
     <div className="side-nav">
       <div className="nav-btn">
-        <img src={homeImg} alt="home" />
+        <img src={homeImg} alt="home" className="side-nav-img" />
       </div>
       <div className="nav-btn">
-        <img src={addImg} alt="home" />
+        <img src={addImg} alt="home" className="side-nav-img" />
       </div>
       <div className="nav-btn selected">
-        <img src={listImg} alt="home" />
+        <img src={listImg} alt="home" className="side-nav-img" />
       </div>
     </div>
   );

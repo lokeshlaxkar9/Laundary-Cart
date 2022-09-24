@@ -123,6 +123,25 @@
     border-radius: 4px;
     opacity: 1;
 }
-.box27 button{
+
+.box27 button {
     padding-left: 25px;
+}
+
+#login-page-signin {
+    text-align: center;
+    font: normal normal 600 14px/48px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFF;
+    background-color: #4552C1;
+    opacity: 1;
+    width: 10em;
+    border: none;
+    border-radius: 4px;
+}
+
+#login-page-signin:hover {
+    color: #4552C1;
+    background-color: white;
+    border: 1px solid #4552C1;
 }
