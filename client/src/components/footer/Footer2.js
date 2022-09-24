@@ -1,12 +1,13 @@
-import "./Footer2.css";
 import React from "react";
-
-function Footer2() {
+import "./footer2.css";
+const Footer2 = () => {
   return (
-    <div className="footer2">
-      <p id="footer2">2021 © Laundry</p>
+    <div id="hell">
+      <footer>
+        <span id="last-try">2021 © Laundry</span>
+      </footer>
     </div>
   );
-}
+};
 
 export default Footer2;

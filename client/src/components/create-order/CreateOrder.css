@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: row;
 }
+
+#hell {
+    height: 40px;
+    background-color: rgb(53, 53, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
