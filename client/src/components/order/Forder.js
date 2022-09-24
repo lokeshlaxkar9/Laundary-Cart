@@ -19,7 +19,7 @@ const Forder = () => {
   const [orderData, setOrderData] = useState({});
   const navigate = useNavigate();
   const fetchData = () => {
-    fetch(`http://localhost:8080/history/${userId}`)
+    fetch(`https://lpglaundry.herokuapp.com/history/${userId}`)
       .then((response) => {
         return response.json();
       })

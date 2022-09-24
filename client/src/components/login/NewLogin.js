@@ -16,7 +16,10 @@ function NewLogin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:8080/login", input);
+      const { data } = await axios.post(
+        "https://lpglaundry.herokuapp.com/login",
+        input
+      );
       localStorage.setItem("userInfo", JSON.stringify(data));
       localStorage.setItem("userId", data.id);
       localStorage.setItem("username", data.name);

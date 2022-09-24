@@ -31,7 +31,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/register",
+        "https://lpglaundry.herokuapp.com/register",
         input
       );
       navigate("/login");

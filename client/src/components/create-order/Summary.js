@@ -76,12 +76,15 @@ function Summary({ handleToggle }) {
           onClick={async () => {
             const userId = localStorage.getItem("userId");
             try {
-              const data = await axios.post("http://localhost:8080/neworder", {
-                ...handleToggle.finalData,
-                totalPrice: totalPrice,
-                totalQuantity: totalQuantity,
-                user: userId,
-              });
+              const data = await axios.post(
+                "https://lpglaundry.herokuapp.com/neworder",
+                {
+                  ...handleToggle.finalData,
+                  totalPrice: totalPrice,
+                  totalQuantity: totalQuantity,
+                  user: userId,
+                }
+              );
               if (data.status == 200) {
                 // alert("Order Confirmed");
                 handleToggle.setConfirm(!handleToggle.confirm);
